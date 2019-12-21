@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4013618523AC5296008B2395 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013618423AC5296008B2395 /* LoadingCell.swift */; };
+		4013618723AC8FFC008B2395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013618623AC8FFC008B2395 /* ViewController.swift */; };
+		4013618923ADB114008B2395 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013618823ADB114008B2395 /* Formatter.swift */; };
 		404D456323AC0D83000BBFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D456223AC0D83000BBFE0 /* AppDelegate.swift */; };
 		404D456523AC0D83000BBFE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D456423AC0D83000BBFE0 /* SceneDelegate.swift */; };
-		404D456723AC0D83000BBFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D456623AC0D83000BBFE0 /* ViewController.swift */; };
 		404D456A23AC0D83000BBFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404D456823AC0D83000BBFE0 /* Main.storyboard */; };
 		404D456C23AC0D85000BBFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404D456B23AC0D85000BBFE0 /* Assets.xcassets */; };
 		404D456F23AC0D85000BBFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404D456D23AC0D85000BBFE0 /* LaunchScreen.storyboard */; };
 		404D457A23AC0D85000BBFE0 /* GitGistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D457923AC0D85000BBFE0 /* GitGistsTests.swift */; };
 		404D458523AC0D85000BBFE0 /* GitGistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D458423AC0D85000BBFE0 /* GitGistsUITests.swift */; };
+		404D459323AC0F4C000BBFE0 /* GistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D459223AC0F4C000BBFE0 /* GistModel.swift */; };
+		404D459723AC0FA0000BBFE0 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D459523AC0FA0000BBFE0 /* Networking.swift */; };
+		404D459823AC0FA0000BBFE0 /* Fetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D459623AC0FA0000BBFE0 /* Fetching.swift */; };
+		404D459D23AC3642000BBFE0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D459C23AC3642000BBFE0 /* CustomTableViewCell.swift */; };
+		404D459F23AC3751000BBFE0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404D459E23AC3751000BBFE0 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4013618423AC5296008B2395 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		4013618623AC8FFC008B2395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4013618823ADB114008B2395 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		404D455F23AC0D83000BBFE0 /* GitGists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitGists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		404D456223AC0D83000BBFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		404D456423AC0D83000BBFE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		404D456623AC0D83000BBFE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		404D456923AC0D83000BBFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		404D456B23AC0D85000BBFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		404D456E23AC0D85000BBFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		404D458023AC0D85000BBFE0 /* GitGistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitGistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		404D458423AC0D85000BBFE0 /* GitGistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitGistsUITests.swift; sourceTree = "<group>"; };
 		404D458623AC0D85000BBFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404D459223AC0F4C000BBFE0 /* GistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistModel.swift; sourceTree = "<group>"; };
+		404D459523AC0FA0000BBFE0 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		404D459623AC0FA0000BBFE0 /* Fetching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetching.swift; sourceTree = "<group>"; };
+		404D459C23AC3642000BBFE0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		404D459E23AC3751000BBFE0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +115,14 @@
 			children = (
 				404D456223AC0D83000BBFE0 /* AppDelegate.swift */,
 				404D456423AC0D83000BBFE0 /* SceneDelegate.swift */,
-				404D456623AC0D83000BBFE0 /* ViewController.swift */,
+				4013618423AC5296008B2395 /* LoadingCell.swift */,
+				404D459C23AC3642000BBFE0 /* CustomTableViewCell.swift */,
+				4013618823ADB114008B2395 /* Formatter.swift */,
+				404D459E23AC3751000BBFE0 /* TableViewController.swift */,
+				4013618623AC8FFC008B2395 /* ViewController.swift */,
 				404D456823AC0D83000BBFE0 /* Main.storyboard */,
+				404D459923AC1082000BBFE0 /* Model */,
+				404D459423AC0FA0000BBFE0 /* Network */,
 				404D456B23AC0D85000BBFE0 /* Assets.xcassets */,
 				404D456D23AC0D85000BBFE0 /* LaunchScreen.storyboard */,
 				404D457023AC0D85000BBFE0 /* Info.plist */,
@@ -126,6 +146,23 @@
 				404D458623AC0D85000BBFE0 /* Info.plist */,
 			);
 			path = GitGistsUITests;
+			sourceTree = "<group>";
+		};
+		404D459423AC0FA0000BBFE0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				404D459523AC0FA0000BBFE0 /* Networking.swift */,
+				404D459623AC0FA0000BBFE0 /* Fetching.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		404D459923AC1082000BBFE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				404D459223AC0F4C000BBFE0 /* GistModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404D456723AC0D83000BBFE0 /* ViewController.swift in Sources */,
+				404D459D23AC3642000BBFE0 /* CustomTableViewCell.swift in Sources */,
+				404D459F23AC3751000BBFE0 /* TableViewController.swift in Sources */,
+				4013618923ADB114008B2395 /* Formatter.swift in Sources */,
+				4013618523AC5296008B2395 /* LoadingCell.swift in Sources */,
+				4013618723AC8FFC008B2395 /* ViewController.swift in Sources */,
+				404D459823AC0FA0000BBFE0 /* Fetching.swift in Sources */,
+				404D459723AC0FA0000BBFE0 /* Networking.swift in Sources */,
 				404D456323AC0D83000BBFE0 /* AppDelegate.swift in Sources */,
+				404D459323AC0F4C000BBFE0 /* GistModel.swift in Sources */,
 				404D456523AC0D83000BBFE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX79G9TM27;
 				INFOPLIST_FILE = GitGists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX79G9TM27;
 				INFOPLIST_FILE = GitGists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
